@@ -1,0 +1,546 @@
+/* estructura de comentarios*/
+
+/*edición css x  IDs*/
+
+                                                                /* COLORES
+
+fondo claro #FCFAF5
+texto sobre fondo claro #0D0D0D
+citas sobre fondo claro #4E4C47
+
+fondo oscuro (footer) #4E4C47
+texto sobre fondo oscuro  #FCFAF5
+
+fondo medio (header y widgets) #E7E5E0
+
+color de acento / links #8224E3
+
+                                                                    */
+
+
+
+/*Fuente importada desde GoogleFonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500;700&family=Young+Serif&display=swap');
+/*cómo citar la fuente: 
+font-family: 'Hind', sans-serif;
+font-family: 'Young Serif', serif;*/
+
+                                                 /*UNIDAD DE MEDIDA = 1REM = 16PX*/
+
+html {
+    font-family: 'Hind', sans-serif;
+    font-size: 100%;
+}
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    }
+    
+
+                                                /* TAMAÑOS DE FUENTE, GENERAL */
+
+
+
+                                                        /* CSS HEADER */
+ 
+header {
+background-color: #E7E5E0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
+
+.contenedor-menu {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+header ul {
+    list-style-type: none;
+ }
+
+ nav a {
+color: #14120D ;
+font-weight: 400;
+text-decoration: none;
+ }
+
+ nav a:visited {
+    text-decoration: underline;
+    color: #8224e3;
+        }
+
+nav a:hover {
+    text-decoration: overline;
+    }
+
+nav a:active {
+    background-color: #14120D;
+    color: #F3F1EC;
+    }
+
+        
+ header img {
+width: 400px;
+ }
+
+ .logo {
+    display:flex;
+    justify-content: start;
+ }
+
+ .menu-de-navegacion {
+display:flex;
+justify-content: right;
+ }
+
+ .lista-menu {
+    display:flex;
+    justify-content: space-around;
+    width: 550px;
+ }
+ 
+
+ 
+ 
+ /* CSS para la página INDEX */
+                                                                                                                    /* ejemplo x etiqueta */
+ body {
+    background-color: #FCFAF5;
+}
+    body {
+     font-family: 'Hind', sans-serif;
+     font-weight: 300;
+     font-size: 16pt;
+     text-align: justify;
+     color: #14120D;
+    }
+
+.caja-presentacion {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 50px;
+}
+
+.contenedor-titulo-presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px 0px 200px 0px; 
+}
+
+
+.contenedor-texto-presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 0px 25px;
+}
+    .contenedor-valores {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+padding-bottom: 50px;
+background-color: #F3F1EC;
+ }
+
+ .imagenes_seccion_valores {
+    width: 200px;
+ }
+
+ .contenedor-imagen-seccion-valores {
+    display: flex;
+    justify-content: center;
+ }
+
+ .subtitulos-index {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: bold;  
+    
+ }
+
+ .sub-subtitulos-index {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight:400;
+ }
+
+
+
+ .grilla-valores {
+display: flex;
+justify-content: center;
+ }
+
+ .section-valores {
+    padding: 0px 25px 0px 25px;
+
+
+ }
+
+
+.contenedor-satff {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.section-staff {
+    padding: 0px 125px 0px 125px;
+}
+
+.grilla-staff {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+     }
+
+.imagenes_seccion_staff {
+        width: 200px;
+}
+
+.contenedor-section-staff {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.contendor-imagen-section-staff {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes_seccion_staff {
+    width: 30%;
+    border-radius: 100%;
+}
+
+.contenedor-novedades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: #F3F1EC;
+}
+
+.contenedor-video {
+    display:flex;
+    justify-content: center;
+}
+
+    .citas_index {
+        font-size: 1.5rem;
+    color: #4E4C47;
+    font-style: italic;
+    }
+
+.parrafos_index {
+    font-size: 1.5rem;
+}
+
+                                                        /* CSS GENERAL */
+h1 {
+font-size: 4.5rem; 
+text-align: center;
+color: #8224e3;
+}
+                                                         
+h2 {
+font-size: 3.5rem;
+color: #8224e3;
+}
+                                                         
+h3{
+font-size: 2.5rem;
+text-align: center;
+color: #8224e3;
+}
+
+h4 {
+font-size: 2rem; 
+text-align: center;
+color: #8224e3;   
+}
+
+                                                        /* CSS MANIFIESTO */
+.texto_manifiesto {
+    font-size: 1.5rem;
+}
+.contenedor-manifiesto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 50px 25px;
+}
+
+
+                                                        /* CSS TALLERES */
+.contenedor-talleres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 50px 25px; 
+}
+                                                        /* CSS REVISTA */
+
+.contenedor-revista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 50px 25px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2 texto2"
+    "img1 img3 img3"
+    "texto1 texto3 texto3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 550px 200px;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+.grid-container img {
+    width:100%;
+    height:100%;
+}
+
+.grid-img-1 {
+grid-area: img1;
+}
+
+.grid-img-2 {
+    grid-area: img2;   
+}
+
+.grid-img-3 {
+    grid-area: img3;  
+}
+
+.grid-texto-titulo {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: bold;  
+}
+
+.grid-texto-1 {
+    grid-area: texto1;
+}
+
+.grid-texto-2 {
+    grid-area: texto2;
+    align-self: center;
+}
+
+.grid-texto-3 {
+    grid-area: texto3;
+}
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        "img1 img1 "
+        "texto1 texto1"
+        "img2 texto2"
+        "img3 img3"
+        "texto3 texto3";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 600px 300px 350px 300px 300px;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+        
+    }
+   } 
+ 
+
+
+                                                        /* CSS EVENTOS */
+.contendor-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 50px 25px;   
+}  
+
+.contenedor-presentacion-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.contenedor-fecha-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;  
+}
+
+.contenedor-calendario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.texto-eventos-fecha {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contenedor-lugar-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;   
+}
+
+.contenedor-mapa {
+    text-align: center;
+}
+
+.texto-eventos-lugar {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h2-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
+
+.h3-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
+    
+.h4-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
+
+.descripción_eventos {
+    font-size: 1.5rem;
+}
+                                                        /* CSS CONTACTO */
+
+.contenedor-pagina-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 50px 25px;  
+}
+
+.formulario_contacto {
+    font-size: 1.5rem;
+}
+
+.formulario_contacto {
+    text-align: center;
+}
+                                                        /* CSS para el FOOTER */
+
+footer {
+    background-color: #4E4C47;
+    font-family: 'Hind', sans-serif;
+    color: #FCFAF5;
+    font-weight: 600;
+}
+
+footer img, svg{
+    width: 30px;
+}
+
+footer a {
+    font-family: 'Hind', sans-serif;
+    color: #FCFAF5;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+ }
+
+ footer a {
+    text-decoration: none;
+    font-size: 1.1rem;
+ }
+
+ footer p {
+    font-size: 1.25rem;
+    color: #FCFAF5;
+ }
+
+.titulo-redes {
+    text-align: start;
+}
+
+ .footer-redes {
+    display: flex;
+    justify-content: start;
+     }
+
+.contenedor-iconos-redes {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: space-around;
+}
+
+.icono-facebook {
+    display: flex;
+    align-self: center;
+}
+
+.icono-instagram {
+    display: flex;
+    align-self: center;
+}
+
+.titulo-contacto {
+text-align: right;
+}
+
+.footer-contacto {
+    display: flex;
+    justify-content: right;
+     }
+
+.contenedor-iconos-contacto {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    justify-content: space-around;
+}
+
+.icono-whatsapp {
+    display: flex;
+    align-self: center;
+}
+
+.icono-mail {
+    display: flex;
+    align-self: center;
+}
+ 
+
