@@ -51,22 +51,20 @@ html {
     display:flex;
     justify-content: right;
 }
+        
+ header img {
+width: 350px;
+ }
+.bg-header-color {
+ background-color: #E7E5E0;   
+}
 
+.nav-link-header {
+text-decoration: none;
+}
  nav a:visited {
     color:dimgray;
         }
-
-nav a:hover {
-    text-decoration: overline;
-    }
-
-nav a:active {
-    color: #8224e3;
-    }
-        
- header img {
-width: 400px;
- }
 
  
  
