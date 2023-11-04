@@ -59,12 +59,17 @@ width: 350px;
  background-color: #E7E5E0;   
 }
 
-.nav-link-header {
-text-decoration: none;
-}
  nav a:visited {
     color:dimgray;
         }
+nav a:hover {
+    text-decoration: overline;
+}
+
+nav a:active {
+    text-decoration: overline;
+    color:#8224e3;
+}
 
  
  
@@ -230,6 +235,12 @@ h4 {
 font-size: 2rem; 
 text-align: center;
 color: #8224e3;   
+}
+
+.h1_en_index {
+    font-size: 4.5rem; 
+    text-align: center;
+    color: #8224e3;    
 }
 
                                                         /* CSS MANIFIESTO */
@@ -437,6 +448,7 @@ footer a {
     display: flex; 
     justify-content: space-between;
     padding: 0px 25px 0px 25px;
+    height: 50px;
  }
 
  footer a {
@@ -450,21 +462,35 @@ footer a {
  }
 
 .titulo-redes {
+    display: flex;
+    align-self: center;
     text-align: start;
 }
+
 
  .footer-redes {
     display: flex;
     justify-content: start;
      }
 
+.contenedor-redes {
+    display: flex;
+    align-items: center;
+}
+
 .contenedor-iconos-redes {
     display: flex;
     align-items: center;
-    width: 260px;
+    width: 350px;
     justify-content: space-around;
 }
+.titulo-redes{
+    margin: 0px 0px 0px 0px;
+}
 
+.titulo-contacto {
+    margin: 0px 0px 0px 0px;    
+}
 .icono-facebook {
     display: flex;
     align-self: center;
@@ -473,6 +499,11 @@ footer a {
 .icono-instagram {
     display: flex;
     align-self: center;
+}
+
+.contenedor-contacto{
+display: flex;
+align-items: center;    
 }
 
 .titulo-contacto {
@@ -487,7 +518,7 @@ text-align: right;
 .contenedor-iconos-contacto {
     display: flex;
     align-items: center;
-    width: 380px;
+    width: 500px;
     justify-content: space-around;
 }
 
