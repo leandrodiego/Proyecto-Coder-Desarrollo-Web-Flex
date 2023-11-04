@@ -40,47 +40,20 @@ html {
     }
     
 
-                                                /* TAMAÑOS DE FUENTE, GENERAL */
-
-
-
+                                                /* TAMAÑOS DE FUENTE, GENERAL *
 
                                                /* CSS HEADER */
 
-.navbar-align {
-display: flex;
-justify-content: right;
-}
+                                                  /* CSS HEADER */
 
-header {
-background-color: #E7E5E0;
-}
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 25px 0px 25px;
-}
-
-.contenedor-menu {
-    display: flex;
+.navbar-align{
+    display:flex;
     justify-content: right;
-    align-items: end;
 }
-
-header ul {
-    list-style-type: none;
- }
-
- nav a {
-color: #14120D ;
-font-weight: 400;
-text-decoration: none;
- }
 
  nav a:visited {
-    text-decoration: underline;
-    color: #8224e3;
+    color:dimgray;
         }
 
 nav a:hover {
@@ -88,31 +61,12 @@ nav a:hover {
     }
 
 nav a:active {
-    background-color: #14120D;
-    color: #F3F1EC;
+    color: #8224e3;
     }
-
         
  header img {
 width: 400px;
  }
-
- .logo {
-    display:flex;
-    justify-content: start;
- }
-
- .menu-de-navegacion {
-display:flex;
-justify-content: right;
- }
-
- .lista-menu {
-    display:flex;
-    justify-content: space-around;
-    width: 550px;
- }
- 
 
  
  
