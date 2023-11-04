@@ -44,8 +44,14 @@ html {
 
 
 
-                                                        /* CSS HEADER */
- 
+
+                                               /* CSS HEADER */
+
+.navbar-align {
+display: flex;
+justify-content: right;
+}
+
 header {
 background-color: #E7E5E0;
 }
