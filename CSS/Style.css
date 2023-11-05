@@ -128,12 +128,29 @@ background-color: #F3F1EC;
     width: 200px;
  }
 
+ .imagenes-seccion-revista {
+    width: 100%;
+    border-radius: 5%;
+ }
+
  .contenedor-imagen-seccion-valores {
     display: flex;
     justify-content: center;
  }
 
+ .contenedor-imagen-seccion-revista {
+    display: flex;
+    justify-content: center;
+ }
+
  .subtitulos-index {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: bold;  
+    
+ }
+
+ .subtitulos-revista {
     text-align: center;
     font-size: 2rem; 
     font-weight: bold;  
@@ -155,8 +172,10 @@ justify-content: center;
 
  .section-valores {
     padding: 0px 25px 0px 25px;
+ }
 
-
+ .section-revista {
+    padding: 0px 25px 0px 25px;
  }
 
 
@@ -217,6 +236,11 @@ justify-content: center;
 
 .parrafos_index {
     font-size: 1.5rem;
+    text-align: justify;
+}
+
+.parrafos-revista {
+    font-size: 1.25rem;
     text-align: justify;
 }
 
@@ -329,24 +353,7 @@ grid-area: img1;
 }
 
 /* MEDIA QUERYS */
-@media screen and (max-width: 480px) {
-    .grid-container {
-        display: grid;
-        grid-template-areas: 
-        "img1 img1 "
-        "texto1 texto1"
-        "img2 texto2"
-        "img3 img3"
-        "texto3 texto3";
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 600px 300px 350px 300px 300px;
-        justify-content: center;
-        row-gap: 20px;
-        column-gap: 20px;
-        
-    }
-   } 
- 
+
 
 
                                                         /* CSS EVENTOS */
