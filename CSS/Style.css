@@ -93,13 +93,18 @@ justify-content: center;
 padding-bottom: 50px;
 }
 
-.contenedor-titulo-presentacion {
+.seccion-presentacion {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 200px 0px 200px 0px; 
 }
 
+@media screen and (min-width: 990px) {
+    .imagen-presentacion {
+    width:696px;
+    }
+    }
+        
 
 .contenedor-texto-presentacion {
     display: flex;
@@ -107,6 +112,8 @@ padding-bottom: 50px;
     justify-content: center;
     padding: 0px 25px 0px 25px;
 }
+
+
     .contenedor-valores {
 display: flex;
 flex-wrap: wrap;
@@ -186,7 +193,6 @@ justify-content: center;
 }
 
 .imagenes_seccion_staff {
-    width: 30%;
     border-radius: 100%;
 }
 
@@ -211,6 +217,7 @@ justify-content: center;
 
 .parrafos_index {
     font-size: 1.5rem;
+    text-align: justify;
 }
 
                                                         /* CSS GENERAL */
@@ -427,11 +434,26 @@ grid-area: img1;
 }
                                                         /* CSS para el FOOTER */
 
+@media only screen and (min-width: 990px) {
+.footer {
+    Height:50px
+}
+}
+        
+@media only screen and (max-width: 989px) {
+    .footer {
+Height:90px
+}
+}
+                                                            
+
 footer {
     background-color: #4E4C47;
     font-family: 'Hind', sans-serif;
     color: #FCFAF5;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
 }
 
 footer img, svg{
@@ -446,9 +468,9 @@ footer a {
 
 .footer {
     display: flex; 
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px 25px 0px 25px;
-    height: 50px;
+   
  }
 
  footer a {
@@ -470,7 +492,7 @@ footer a {
 
  .footer-redes {
     display: flex;
-    justify-content: start;
+    justify-content: center;
      }
 
 .contenedor-redes {
@@ -512,7 +534,7 @@ text-align: right;
 
 .footer-contacto {
     display: flex;
-    justify-content: right;
+    justify-content: center;
      }
 
 .contenedor-iconos-contacto {
