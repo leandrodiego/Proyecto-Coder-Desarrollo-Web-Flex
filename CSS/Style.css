@@ -258,8 +258,6 @@ justify-content: center;
     display: flex;
     justify-content: center;   
 }
-
-
                                                         /* CSS GENERAL */
 h1 {
 font-size: 4.5rem; 
@@ -282,6 +280,18 @@ h4 {
 font-size: 2rem; 
 text-align: center;
 color: #8224e3;   
+}
+
+h5 {
+    font-size: 1.5rem; 
+    text-align: center;
+    color:#14120D;    
+}
+
+.h5-fondo-oscuro {
+    font-size: 1.5rem; 
+    text-align: center;
+    color:#E7E5E0;    
 }
 
 .h1_en_index {
@@ -583,4 +593,34 @@ text-align: right;
     align-self: center;
 }
  
+@media screen and (min-width: 1200px) {
+    .container-carousel {
+        width: 912px;
+    }
+    }
 
+
+    .container-general {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    @media screen and (min-width: 1200px) {
+        .container-general {
+            width: 85%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        }
+.btn-purpura {
+    background-color: #8224e3;
+    color: #F3F1EC;
+    
+}
+.btn-align {
+    display: flex;
+    justify-content: center;
+    background-position-y: bottom;
+}
+.col-margin {
+    margin-bottom: 25px;
+}
