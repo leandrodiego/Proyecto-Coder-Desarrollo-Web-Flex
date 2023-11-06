@@ -55,6 +55,8 @@ html {
  header img {
 width: 350px;
  }
+
+
 .bg-header-color {
  background-color: #E7E5E0;   
 }
@@ -537,6 +539,7 @@ footer a {
 .contenedor-redes {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .contenedor-iconos-redes {
@@ -611,6 +614,15 @@ text-align: right;
             margin-bottom: 5%;
         }
         }
+@media screen and (max-width: 576px) {
+header img {
+width: 250px;
+
+             }
+             
+}
+
+
 .btn-purpura {
     background-color: #8224e3;
     color: #F3F1EC;
