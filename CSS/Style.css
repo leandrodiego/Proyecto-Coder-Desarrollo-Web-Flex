@@ -507,13 +507,6 @@ footer a {
     font-weight: 300;
 }
 
-.footer {
-    display: flex; 
-    justify-content: center;
-    padding: 0px 25px 0px 25px;
-   
- }
-
  footer a {
     text-decoration: none;
     font-size: 1.1rem;
@@ -524,40 +517,30 @@ footer a {
     color: #FCFAF5;
  }
 
-.titulo-redes {
-    display: flex;
-    align-self: center;
-    text-align: start;
-}
-
+ .footer {
+    display: flex; 
+    justify-content: center;
+    padding: 0px 25px 0px 25px;
+   
+ }
 
  .footer-redes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
      }
 
-.contenedor-redes {
+.contenedor-facebook {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
-.contenedor-iconos-redes {
-    display: flex;
-    align-items: center;
-    width: 350px;
-    justify-content: space-around;
-}
-.titulo-redes{
-    margin: 0px 0px 0px 0px;
-}
-
-.titulo-contacto {
-    margin: 0px 0px 0px 0px;    
-}
 .icono-facebook {
     display: flex;
     align-self: center;
+}
+
+.contenedor-instagram {
+    display: flex;
 }
 
 .icono-instagram {
@@ -565,30 +548,24 @@ footer a {
     align-self: center;
 }
 
-.contenedor-contacto{
-display: flex;
-align-items: center;    
-}
-
-.titulo-contacto {
-text-align: right;
-}
-
 .footer-contacto {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
      }
 
-.contenedor-iconos-contacto {
+
+.contenedor-whatsapp {
     display: flex;
-    align-items: center;
-    width: 500px;
-    justify-content: space-around;
 }
 
 .icono-whatsapp {
     display: flex;
     align-self: center;
+}
+
+.contenedor-mail {
+    display: flex;
 }
 
 .icono-mail {
