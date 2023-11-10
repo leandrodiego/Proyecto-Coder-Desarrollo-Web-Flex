@@ -26,49 +26,25 @@ color de acento / links #8224E3
 font-family: 'Hind', sans-serif;
 font-family: 'Young Serif', serif;*/
 
-/*UNIDAD DE MEDIDA = 1REM = 16PX*/
+                                                 /*UNIDAD DE MEDIDA = 1REM = 16PX*/
 
+html {
+    font-family: 'Hind', sans-serif;
+    font-size: 100%;
+}
 
-/* MEDIA QUERYS */
-@media screen and (min-width: 990px) {
-    .imagen-presentacion {
-    width:696px;
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
     }
-    }
-
-@media only screen and (min-width: 990px) {
-        .footer {
-            Height:50px
-        }
-        }
-                
-@media only screen and (max-width: 989px) {
-            .footer {
-        Height:90px
-        }
-        }
-
-        @media screen and (min-width: 1200px) {
-            .container-carousel {
-                width: 912px;
-            }
-            }
-    @media screen and (min-width: 1200px) {
-            .container-general {
-                width: 85%;
-                margin-top: 5%;
-                margin-bottom: 5%;
-            }
-            }
-    @media screen and (max-width: 576px) {
-    header img {
-    width: 250px;
     
-                 }
-                 
-    }
 
-/* CSS HEADER */
+                                                /* TAMAÑOS DE FUENTE, GENERAL *
+
+                                               /* CSS HEADER */
+
+                                                  /* CSS HEADER */
 
 
 .navbar-align{
@@ -80,11 +56,12 @@ font-family: 'Young Serif', serif;*/
 width: 350px;
  }
 
+
 .bg-header-color {
  background-color: #E7E5E0;   
 }
 
-nav a:visited {
+ nav a:visited {
     color:dimgray;
         }
 nav a:hover {
@@ -97,75 +74,13 @@ nav a:active {
 }
 
  
-
-/* CSS GENERAL */
-
-h1 {
-    font-size: 4.5rem; 
-    text-align: center;
-    color: #8224e3;
-    }
-                                                             
-    h2 {
-    font-size: 3.5rem;
-    color: #8224e3;
-    }
-                                                             
-    h3{
-    font-size: 2.5rem;
-    text-align: center;
-    color: #8224e3;
-    }
-    
-    h4 {
-    font-size: 2rem; 
-    text-align: center;
-    color: #8224e3;   
-    }
-    
-    h5 {
-        font-size: 1.5rem; 
-        text-align: center;
-        color:#14120D;    
-    }
-    
-    .h5-fondo-oscuro {
-        font-size: 1.5rem; 
-        text-align: center;
-        color:#E7E5E0;    
-    }
-    
-    .h1_en_index {
-        font-size: 4.5rem; 
-        text-align: center;
-        color: #8224e3;    
-    }
-    
-    .h2-en-paginas {
-        color: #14120D;
-        text-align: center;
-    }
-    
-    .h3-en-paginas {
-        color: #14120D;
-        text-align: center;
-    }
-        
-    .h4-en-paginas {
-        color: #14120D;
-        text-align: center;
-    }
-    
-    .container-general {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
  
- /* CSS INDEX */
-body {
+ /* CSS para la página INDEX */
+                                                                                                                    /* ejemplo x etiqueta */
+ body {
     background-color: #FCFAF5;
 }
-body {
+    body {
      font-family: 'Hind', sans-serif;
      font-weight: 300;
      font-size: 16pt;
@@ -185,6 +100,12 @@ padding-bottom: 50px;
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (min-width: 990px) {
+    .imagen-presentacion {
+    width:696px;
+    }
+    }
         
 
 .contenedor-texto-presentacion {
@@ -194,7 +115,8 @@ padding-bottom: 50px;
     padding: 0px 25px 0px 25px;
 }
 
-.contenedor-valores {
+
+    .contenedor-valores {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -204,26 +126,33 @@ padding-bottom: 50px;
 background-color: #F3F1EC;
  }
 
-.imagenes_seccion_valores {
+ .imagenes_seccion_valores {
     width: 200px;
  }
 
-.imagenes-seccion-revista {
+ .imagenes-seccion-revista {
     width: 100%;
     border-radius: 5%;
  }
 
-.contenedor-imagen-seccion-valores {
+ .contenedor-imagen-seccion-valores {
     display: flex;
     justify-content: center;
  }
 
-.contenedor-imagen-seccion-revista {
+ .contenedor-imagen-seccion-revista {
     display: flex;
     justify-content: center;
  }
 
-.subtitulos-index {
+ .subtitulos-index {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: bold;  
+    
+ }
+
+ .subtitulos-revista {
     text-align: center;
     font-size: 2rem; 
     font-weight: bold;  
@@ -236,6 +165,8 @@ background-color: #F3F1EC;
     font-weight:400;
  }
 
+
+
  .grilla-valores {
 display: flex;
 justify-content: center;
@@ -244,6 +175,11 @@ justify-content: center;
  .section-valores {
     padding: 0px 25px 0px 25px;
  }
+
+ .section-revista {
+    padding: 0px 25px 0px 25px;
+ }
+
 
 .contenedor-satff {
     display:flex;
@@ -294,7 +230,7 @@ justify-content: center;
     justify-content: center;
 }
 
-.citas_index {
+    .citas_index {
         font-size: 1.5rem;
     color: #4E4C47;
     font-style: italic;
@@ -310,9 +246,63 @@ justify-content: center;
     text-align: justify;
 }
 
+.contenedor-talleres3 {
+    padding-bottom: 100px;
+}
 
-/* CSS MANIFIESTO */
+.check-align {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
+.button-submit-align {
+    display: flex;
+    justify-content: center;   
+}
+                                                        /* CSS GENERAL */
+h1 {
+font-size: 4.5rem; 
+text-align: center;
+color: #8224e3;
+}
+                                                         
+h2 {
+font-size: 3.5rem;
+color: #8224e3;
+}
+                                                         
+h3{
+font-size: 2.5rem;
+text-align: center;
+color: #8224e3;
+}
+
+h4 {
+font-size: 2rem; 
+text-align: center;
+color: #8224e3;   
+}
+
+h5 {
+    font-size: 1.5rem; 
+    text-align: center;
+    color:#14120D;    
+}
+
+.h5-fondo-oscuro {
+    font-size: 1.5rem; 
+    text-align: center;
+    color:#E7E5E0;    
+}
+
+.h1_en_index {
+    font-size: 4.5rem; 
+    text-align: center;
+    color: #8224e3;    
+}
+
+                                                        /* CSS MANIFIESTO */
 .texto_manifiesto {
     font-size: 1.5rem;
 }
@@ -323,8 +313,8 @@ justify-content: center;
     padding: 0px 25px 50px 25px;
 }
 
-/* CSS TALLERES */
 
+                                                        /* CSS TALLERES */
 .contenedor-talleres {
     display: flex;
     flex-direction: column;
@@ -337,12 +327,7 @@ justify-content: center;
     justify-content: center;
     padding-bottom: 50px;
 }
-
-.contenedor-talleres3 {
-    padding-bottom: 100px;
-}
-
-/* CSS REVISTA */
+                                                        /* CSS REVISTA */
 
 .contenedor-revista {
     display: flex;
@@ -351,32 +336,61 @@ justify-content: center;
     padding: 0px 25px 50px 25px; 
 }
 
-.btn-purpura {
-    background-color: #8224e3;
-    color: #F3F1EC;
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2 texto2"
+    "img1 img3 img3"
+    "texto1 texto3 texto3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 550px 200px;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
     
 }
-.btn-align {
-    display: flex;
-    justify-content: center;
-    background-position-y: bottom;
-}
-.col-margin {
-    margin-bottom: 25px;
+
+.grid-container img {
+    width:100%;
+    height:100%;
 }
 
-.subtitulos-revista {
+.grid-img-1 {
+grid-area: img1;
+}
+
+.grid-img-2 {
+    grid-area: img2;   
+}
+
+.grid-img-3 {
+    grid-area: img3;  
+}
+
+.grid-texto-titulo {
     text-align: center;
     font-size: 2rem; 
     font-weight: bold;  
-    
- }
- .section-revista {
-    padding: 0px 25px 0px 25px;
- }
+}
 
-/* CSS EVENTOS */
+.grid-texto-1 {
+    grid-area: texto1;
+}
 
+.grid-texto-2 {
+    grid-area: texto2;
+    align-self: center;
+}
+
+.grid-texto-3 {
+    grid-area: texto3;
+}
+
+/* MEDIA QUERYS */
+
+
+
+                                                        /* CSS EVENTOS */
 .contendor-eventos {
     display: flex;
     flex-direction: column;
@@ -425,12 +439,25 @@ justify-content: center;
     font-size: 2rem;
 }
 
+.h2-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
+
+.h3-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
+    
+.h4-en-paginas {
+    color: #14120D;
+    text-align: center;
+}
 
 .descripción_eventos {
     font-size: 1.5rem;
 }
-
-/* CSS CONTACTO */
+                                                        /* CSS CONTACTO */
 
 .contenedor-pagina-contacto {
     display: flex;
@@ -446,20 +473,19 @@ justify-content: center;
 .formulario_contacto {
     text-align: center;
 }
+                                                        /* CSS para el FOOTER */
 
-
-.check-align {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+@media only screen and (min-width: 990px) {
+.footer {
+    Height:50px
 }
-
-.button-submit-align {
-    display: flex;
-    justify-content: center;   
 }
-
-/* CSS para el FOOTER */
+        
+@media only screen and (max-width: 989px) {
+    .footer {
+Height:90px
+}
+}
                                                             
 
 footer {
@@ -498,7 +524,7 @@ footer a {
    
  }
 
-.footer-redes {
+ .footer-redes {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -528,6 +554,7 @@ footer a {
     align-items: center;
      }
 
+
 .contenedor-whatsapp {
     display: flex;
 }
@@ -546,3 +573,43 @@ footer a {
     align-self: center;
 }
  
+@media screen and (min-width: 1200px) {
+    .container-carousel {
+        width: 912px;
+    }
+    }
+
+
+    .container-general {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    @media screen and (min-width: 1200px) {
+        .container-general {
+            width: 85%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        }
+@media screen and (max-width: 576px) {
+header img {
+width: 250px;
+
+             }
+             
+}
+
+
+.btn-purpura {
+    background-color: #8224e3;
+    color: #F3F1EC;
+    
+}
+.btn-align {
+    display: flex;
+    justify-content: center;
+    background-position-y: bottom;
+}
+.col-margin {
+    margin-bottom: 25px;
+}
