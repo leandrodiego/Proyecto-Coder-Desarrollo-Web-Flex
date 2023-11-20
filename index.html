@@ -6,6 +6,12 @@
     <title>TOKONOMA.lit</title> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--MI HOJA DE CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <link rel="stylesheet" href="./CSS/Styles.css">
 </head>
 
@@ -14,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-header-color">
             <div class="container"> 
-              <a class="navbar-brand" href="index.html"><img src="./images/titulo-sitio.png" alt="logo y título del sitio"></a>
+              <a class="navbar-brand animate__animated animate__jackInTheBox" href="index.html"><img src="./images/titulo-sitio.png" alt="logo y título del sitio"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -66,7 +72,7 @@
     <div class="col col-md-12 col-xl-4">
         <div class="section-valores">
             <div class="contenedor-imagen-seccion-valores"> 
-                <img class="imagenes_seccion_valores" src="./images/objetivos.png" alt="imagen ilustrativa sobre los objetivos del sitio">
+                <img class="imagenes_seccion_valores" data-aos="flip-left" data-aos-duration="1250"  src="./images/objetivos.png" alt="imagen ilustrativa sobre los objetivos del sitio">
             </div>
             <p class="subtitulos">Objetivos</p>
         <p class="parrafo-normal">Inyectar vitalidad a un campo literario adormecido por la conformidad, el algoritmo y la pereza intelectual. Discutir ideas, obras y modos de leer. Debatir las lecturas vigentes de obras, discursos y, por qué no, <em>la selva espesa de lo real</em>.</p>
@@ -75,7 +81,7 @@
     <div class="col col-md-12 col-xl-4">
         <div class="section-valores">
             <div class="contenedor-imagen-seccion-valores">
-            <img class="imagenes_seccion_valores" src="./images/mision.png" alt="imagen ilustrativa de la misión del sitio">
+            <img class="imagenes_seccion_valores" data-aos="flip-left" data-aos-duration="1250" src="./images/mision.png" alt="imagen ilustrativa de la misión del sitio">
         </div>
                 <p class="subtitulos">Misión</p>
             <p class="parrafo-normal">Generar un espacio dinámico que, a modo de laboratorio, sirva para formar pensamiento crítico orientado a la literatura y la cultura argentinas. Reivindicarlas como experiencias totales que, si dejaron de serlo, se debe a la atrofia de sus hacedores.</p>
@@ -84,7 +90,7 @@
     <div class="col col-md-12 col-xl-4">
         <div class="section-valores">
             <div class="contenedor-imagen-seccion-valores">
-        <img class="imagenes_seccion_valores" src="./images/vision.png" alt="imagen ilustrativa de la visión del sitio">
+        <img class="imagenes_seccion_valores" data-aos="flip-left" data-aos-duration="1250" src="./images/vision.png" alt="imagen ilustrativa de la visión del sitio">
         </div>
             <p class="subtitulos">Visión</p>
             <p class="parrafo-normal">En un tiempo en que la IA amenaza con adueñarse de la industria del entretenimiento, es vital defender el estatuto del arte como experiencia humana. Fomentar la contemplación y la crítica (es decir: la lectura) es, hoy, una cuestión de supervivencia.</p>
@@ -101,7 +107,7 @@
                     <div class="col col-md-12 col-xl-6">
                       <div class="section-valores">
                 <div class="contenedor-section-staff">
-                <div class="contendor-imagen-section-staff"><img class="imagenes_seccion_staff" src="./images/juan.jpg" alt="Foto presentación de Juan Rochi"></div>
+                <div class="contendor-imagen-section-staff"><img class="imagenes_seccion_staff" data-aos="fade-right" data-aos-duration="1250" src="./images/juan.jpg" alt="Foto presentación de Juan Rochi"></div>
                     <p class="subtitulos">Juan Rochi</p>
                     <p class="parrafo-normal">Licenciado en Filosofía por la UBA con un especial interés en la poesía argentina de los 90 (o en Martín Gambarotta). Defensor de la crítica auerbachiana y enraizado en los principios poéticos de Ezra Pound.</p>
                 </div>
@@ -110,7 +116,7 @@
                     <div class="col col-md-12 col-xl-6">
                       <div class="section-valores">
                 <div class="contenedor-section-staff">
-                        <div class="contendor-imagen-section-staff"><img class="imagenes_seccion_staff" src="./images/leandro.jpg" alt="Foto presentación de Leandro Diego"></div>
+                        <div class="contendor-imagen-section-staff"><img class="imagenes_seccion_staff" data-aos="fade-left" data-aos-duration="1250" src="./images/leandro.jpg" alt="Foto presentación de Leandro Diego"></div>
                     <p class="subtitulos">Leandro Diego</p>
                     <p class="parrafo-normal">Periodista cultural y autor del poemario narrativo Monoimi (<em>AñosLuz</em>, 2020). Abomina de los edificios de ideas y defiende el pensamiento como una serie de premisas que no tienen por qué concluir nada.</p>
                 </div>
@@ -187,5 +193,9 @@
 </section>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+ </script>
+ 
 </body>
 </html>
