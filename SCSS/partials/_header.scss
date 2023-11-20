@@ -1,0 +1,34 @@
+header {
+    
+       .bg-header-color {
+       background-color:$gris-claro;}
+       nav {
+    img {
+width: 350px;}
+    a {
+        font-family: $fuente;
+        font-weight: $normal;
+        font-size: $p;
+        color: $gris-oscuro;
+    &:visited {
+        color: $gris-medio;
+            }
+     &:hover {
+        text-decoration: overline;
+            }
+     &:active {
+        color: $acento; 
+             }
+     &:focus {
+        color: $blanco;
+        background-color: $gris-oscuro;   
+     }
+    }
+
+        .navbar-align{
+        display:flex;
+        justify-content: right;
+        }           
+}             
+}    
+

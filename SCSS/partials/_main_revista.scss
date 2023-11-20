@@ -1,0 +1,40 @@
+ main {
+    .container-general {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+            .contenedor-texto {
+                margin-bottom: 5%;
+            }
+            .col-margin {
+            margin-bottom: 25px;
+                        }
+            .section-revista {
+                padding: 0px 25px 0px 25px;
+                    .contenedor-imagen-seccion-revista {
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 5%;
+                            .imagenes-seccion-revista {
+                                width: 100%;
+                                border-radius: 5%;
+                         }
+                 }
+            .subtitulos-revista {
+                text-align: center;
+                font-size: 2rem; 
+                font-weight: bold;    
+                 }
+            
+            .btn-align {
+                    display: flex;
+                    justify-content: center;
+                        .btn-purpura {
+                            background-color: #8224e3;
+                            color: #F3F1EC;  
+                    }
+                }
+
+     } 
+    
+ }

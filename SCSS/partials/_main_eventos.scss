@@ -1,0 +1,80 @@
+main {
+.container-general {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+       
+                    .contenedor-presentacion-eventos {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+                        .h2-en-paginas {
+                            font-family: 'Hind', sans-serif;
+                            color: #14120D;
+                            text-align: center;
+                            font-size: $h3;
+                            }
+                        .contenedor-texto {
+                                margin-bottom: 5%;}
+                          
+                    }
+                    .contenedor-fecha-eventos {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                            
+                        .h3-en-paginas {
+                            font-family: 'Hind', sans-serif;
+                            color: #14120D;
+                            text-align: center;
+                            font-size: $h4;
+                            }
+                            .contenedor-mapa {
+                                text-align: center;
+                                }    
+                        .parrafo-centrado {
+                            font-family: $fuente;
+                            font-size: $p;
+                            font-weight: $normal;
+                            color: $negro;
+                            text-align: center;
+                        }    
+
+                        .texto-eventos-fecha {
+                        text-align: center;
+                        font-size: 2rem;
+                            }
+                    }               
+                    .contenedor-lugar-eventos {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding-bottom: 50px;   
+
+                        .h4-en-paginas {
+                            font-family: 'Hind', sans-serif;
+                            color: #14120D;
+                            text-align: center;
+                            font-size: $h5;
+                            }
+                            .parrafo-centrado {
+                                font-family: $fuente;
+                                font-size: $p;
+                                font-weight: $normal;
+                                color: $negro;
+                                text-align: center;
+                            } 
+                        .texto-eventos-lugar {
+                            text-align: center;
+                            font-size: 2rem;
+                            }
+                        .contenedor-mapa {
+                            text-align: center;
+                            }
+    
+            }
+
+        
+    
+}    

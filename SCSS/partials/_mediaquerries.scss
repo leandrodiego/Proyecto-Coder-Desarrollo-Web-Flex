@@ -1,0 +1,38 @@
+@media screen and (min-width: 990px) {
+    .imagen-presentacion {
+    width:696px;
+    }
+    }
+
+@media only screen and (min-width: 990px) {
+        .footer {
+            Height:50px
+        }
+        }
+                
+@media only screen and (max-width: 989px) {
+            .footer {
+        Height:90px
+        }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .container-carousel {
+                width: 912px;
+            }
+            }
+    @media screen and (min-width: 1200px) {
+            .container-general {
+                width: 85%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            }
+    @media screen and (max-width: 576px) {
+    header img {
+    width: 250px;
+    
+                 }
+                 
+    }
+

@@ -1,3 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;500;700&family=Young+Serif&display=swap");
+header .bg-header-color {
+  background-color: #E7E5E0;
+}
+header nav img {
+  width: 350px;
+}
+header nav a {
+  font-family: "Hind", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #4E4C47;
+}
+header nav a:visited {
+  color: dimgrey;
+}
+header nav a:hover {
+  text-decoration: overline;
+}
+header nav a:active {
+  color: #8224E3;
+}
+header nav a:focus {
+  color: #FCFAF5;
+  background-color: #4E4C47;
+}
+header nav .navbar-align {
+  display: flex;
+  justify-content: right;
+}
 
+main .seccion-presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .seccion-presentacion .contenedor-texto-presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 25px 0px 25px;
+}
+main .seccion-presentacion .contenedor-texto-presentacion .citas_index {
+  color: #4E4C47;
+  font-weight: 200;
+}
+main .section-valores {
+  padding: 0px 25px 0px 25px;
+}
+main .section-valores .contenedor-imagen-seccion-valores {
+  display: flex;
+  justify-content: center;
+}
+main .section-valores .contenedor-imagen-seccion-valores .imagenes_seccion_valores {
+  width: 200px;
+}
+main .section-valores .contenedor-section-staff {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .section-valores .contendor-imagen-section-staff {
+  display: flex;
+  justify-content: center;
+}
+main .section-valores .contendor-imagen-section-staff .imagenes_seccion_staff {
+  border-radius: 100%;
+  width: 200px;
+}
+main .h2-index {
+  color: #8224E3;
+}
+main .h3-index {
+  color: #8224E3;
+}
+main .h4-index {
+  color: #FCFAF5;
+}
+main .subtitulo-carrousel {
+  font-family: "Hind", sans-serif;
+  color: #FCFAF5;
+  font-size: 1rem;
+}
+
+main .container-general {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .parrafos-card {
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+main .contenedor-talleres3 {
+  padding-bottom: 100px;
+}
+main .contenedor-talleres2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+main .btn-purpura {
+  background-color: #8224e3;
+  color: #F3F1EC;
+}
+
+main .container-general {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .contenedor-texto {
+  margin-bottom: 5%;
+}
+main .col-margin {
+  margin-bottom: 25px;
+}
+main .section-revista {
+  padding: 0px 25px 0px 25px;
+}
+main .section-revista .contenedor-imagen-seccion-revista {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+main .section-revista .contenedor-imagen-seccion-revista .imagenes-seccion-revista {
+  width: 100%;
+  border-radius: 5%;
+}
+main .section-revista .subtitulos-revista {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+main .section-revista .btn-align {
+  display: flex;
+  justify-content: center;
+}
+main .section-revista .btn-align .btn-purpura {
+  background-color: #8224e3;
+  color: #F3F1EC;
+}
+
+main .container-general {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main .container-general {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .contenedor-presentacion-eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .contenedor-presentacion-eventos .h2-en-paginas {
+  font-family: "Hind", sans-serif;
+  color: #14120D;
+  text-align: center;
+  font-size: 2.5rem;
+}
+main .contenedor-presentacion-eventos .contenedor-texto {
+  margin-bottom: 5%;
+}
+main .contenedor-fecha-eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .contenedor-fecha-eventos .h3-en-paginas {
+  font-family: "Hind", sans-serif;
+  color: #14120D;
+  text-align: center;
+  font-size: 2rem;
+}
+main .contenedor-fecha-eventos .contenedor-mapa {
+  text-align: center;
+}
+main .contenedor-fecha-eventos .parrafo-centrado {
+  font-family: "Hind", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #14120D;
+  text-align: center;
+}
+main .contenedor-fecha-eventos .texto-eventos-fecha {
+  text-align: center;
+  font-size: 2rem;
+}
+main .contenedor-lugar-eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+main .contenedor-lugar-eventos .h4-en-paginas {
+  font-family: "Hind", sans-serif;
+  color: #14120D;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .contenedor-lugar-eventos .parrafo-centrado {
+  font-family: "Hind", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #14120D;
+  text-align: center;
+}
+main .contenedor-lugar-eventos .texto-eventos-lugar {
+  text-align: center;
+  font-size: 2rem;
+}
+main .contenedor-lugar-eventos .contenedor-mapa {
+  text-align: center;
+}
+
+.container-general {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.h2-en-paginas {
+  font-family: "Hind", sans-serif;
+  color: #14120D;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.check-align {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-submit-align {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-align {
+  display: flex;
+  justify-content: center;
+}
+.btn-align .btn-purpura {
+  background-color: #8224e3;
+  color: #F3F1EC;
+}
+
+footer {
+  background-color: #4E4C47;
+  font-family: "Hind", sans-serif;
+  color: #FCFAF5;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+footer img, footer svg {
+  width: 30px;
+}
+footer a {
+  font-family: "Hind", sans-serif;
+  color: #FCFAF5;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1rem;
+}
+footer p {
+  font-size: 1rem;
+  color: #FCFAF5;
+}
+footer .footer {
+  display: flex;
+  justify-content: center;
+  padding: 0px 25px 0px 25px;
+}
+footer .footer .footer-redes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer .footer-redes .contenedor-facebook {
+  display: flex;
+  align-items: center;
+}
+footer .footer .footer-redes .contenedor-facebook .icono-facebook {
+  display: flex;
+  align-self: center;
+}
+footer .footer .footer-redes .contenedor-instagram {
+  display: flex;
+  align-items: center;
+}
+footer .footer .footer-redes .contenedor-instagram .icono-instagram {
+  display: flex;
+  align-self: center;
+}
+footer .footer .footer-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer .footer-contacto .contenedor-whatsapp {
+  display: flex;
+  align-items: center;
+}
+footer .footer .footer-contacto .contenedor-whatsapp .icono-whatsapp {
+  display: flex;
+  align-self: center;
+}
+footer .footer .footer-contacto .contenedor-mail {
+  display: flex;
+  align-items: center;
+}
+footer .footer .footer-contacto .contenedor-mail .icono-mail {
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (min-width: 990px) {
+  .imagen-presentacion {
+    width: 696px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .footer {
+    Height: 50px;
+  }
+}
+@media only screen and (max-width: 989px) {
+  .footer {
+    Height: 90px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-carousel {
+    width: 912px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-general {
+    width: 85%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header img {
+    width: 250px;
+  }
+}
+h1 {
+  font: "Hind", sans-serif;
+  color: #8224E3;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  font: "Hind", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #14120D;
+  font-weight: 600;
+}
+
+h3 {
+  font: "Hind", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #14120D;
+  font-weight: 400;
+}
+
+h4 {
+  font: "Hind", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #14120D;
+  font-weight: 400;
+}
+
+h5 {
+  font: "Hind", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #14120D;
+  font-weight: 400;
+}
+
+body {
+  background-color: #FCFAF5;
+  font-family: "Hind", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.parrafo-normal {
+  font-family: "Hind", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #14120D;
+  text-align: justify;
+}
+
+.parrafo-citas {
+  font-family: "Hind", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: dimgrey;
+  text-align: justify;
+}
+
+.subtitulos {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=Styles.css.map */

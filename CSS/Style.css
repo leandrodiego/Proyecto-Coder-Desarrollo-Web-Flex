@@ -95,67 +95,72 @@ nav a:active {
     color:#8224e3;
 }
 
- 
+/* TITULOS */
+
+
 
 /* CSS GENERAL */
 
 h1 {
+    font-family: 'Hind', sans-serif;
     font-size: 4.5rem; 
     text-align: center;
     color: #8224e3;
     }
                                                              
-    h2 {
+h2 {
+    font-family: 'Hind', sans-serif;
     font-size: 3.5rem;
     color: #8224e3;
     }
                                                              
-    h3{
+h3{
+    font-family: 'Hind', sans-serif;
     font-size: 2.5rem;
     text-align: center;
     color: #8224e3;
     }
     
-    h4 {
+h4 {
+    font-family: 'Hind', sans-serif;
     font-size: 2rem; 
     text-align: center;
     color: #8224e3;   
     }
     
-    h5 {
+h5 {
+        font-family: 'Hind', sans-serif;
         font-size: 1.5rem; 
         text-align: center;
         color:#14120D;    
     }
     
-    .h5-fondo-oscuro {
+.h4-index {
+        font-family: 'Hind', sans-serif;
         font-size: 1.5rem; 
         text-align: center;
         color:#E7E5E0;    
     }
     
-    .h1_en_index {
-        font-size: 4.5rem; 
-        text-align: center;
-        color: #8224e3;    
-    }
-    
-    .h2-en-paginas {
+.h2-en-paginas {
+    font-family: 'Hind', sans-serif;
         color: #14120D;
         text-align: center;
     }
     
-    .h3-en-paginas {
+.h3-en-paginas {
+    font-family: 'Hind', sans-serif;
         color: #14120D;
         text-align: center;
     }
         
-    .h4-en-paginas {
+.h4-en-paginas {
+    font-family: 'Hind', sans-serif;
         color: #14120D;
         text-align: center;
     }
     
-    .container-general {
+.container-general {
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -163,8 +168,6 @@ h1 {
  /* CSS INDEX */
 body {
     background-color: #FCFAF5;
-}
-body {
      font-family: 'Hind', sans-serif;
      font-weight: 300;
      font-size: 16pt;
@@ -322,25 +325,6 @@ justify-content: center;
     padding: 0px 25px 50px 25px;
 }
 
-/* CSS TALLERES */
-
-.contenedor-talleres {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px 25px 50px 25px; 
-}
-
-.contenedor-talleres2 {
-    display:flex;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-
-.contenedor-talleres3 {
-    padding-bottom: 100px;
-}
-
 /* CSS REVISTA */
 
 .contenedor-revista {
@@ -478,9 +462,6 @@ footer a {
     font-family: 'Hind', sans-serif;
     color: #FCFAF5;
     font-weight: 300;
-}
-
- footer a {
     text-decoration: none;
     font-size: 1.1rem;
  }

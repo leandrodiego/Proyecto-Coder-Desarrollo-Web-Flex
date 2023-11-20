@@ -1,0 +1,32 @@
+
+.container-general {
+        margin-top: 5%;
+        margin-bottom: 5%; } 
+            
+        .h2-en-paginas {
+            font-family: 'Hind', sans-serif;
+            color: #14120D;
+            text-align: center;
+            font-size: $h3;
+            }
+        .check-align {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .button-submit-align {
+            display: flex;
+            justify-content: center; }
+    
+
+            .btn-align {
+                display: flex;
+                justify-content: center;
+                    .btn-purpura {
+                        background-color: #8224e3;
+                        color: #F3F1EC;  
+                }
+            }
+        
+         
