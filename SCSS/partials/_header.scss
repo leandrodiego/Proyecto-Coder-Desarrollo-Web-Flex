@@ -17,12 +17,8 @@ width: 350px;}
         text-decoration: overline;
             }
      &:active {
-        color: $acento; 
+        font-weight: bold;
              }
-     &:focus {
-        color: $blanco;
-        background-color: $gris-oscuro;   
-     }
     }
 
         .navbar-align{
