@@ -18,11 +18,7 @@ header nav a:hover {
   text-decoration: overline;
 }
 header nav a:active {
-  color: #8224E3;
-}
-header nav a:focus {
-  color: #FCFAF5;
-  background-color: #4E4C47;
+  font-weight: bold;
 }
 header nav .navbar-align {
   display: flex;
@@ -418,4 +414,4 @@ body {
   font-weight: bold;
 }
 
-/*# sourceMappingURL=Styles.css.map */
+/*# sourceMappingURL=styles.css.map */
